@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by anonymous (http://jsbin.com/jigosikita/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Twitter. It's what’s happening / Twitter</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<style id="jsbin-css">
+.left-div{
+  height:93vh;
+    width:50%;
+    background-color:#78C8FA;
+  position:absolute;
+  background-image:url(https://i.imgur.com/yE7liQi.png);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size:1020px;
+  
+ 
+   
+}
+.bodyy{
+  margin:0;
+  padding:0;
+  background:black;
+  
+ }
+
+.left-div div{
+  padding:90px;
+  position:relative ;
+  top:130px;
+ left:100px;
+}
+.left-div div p{
+  color:white;
+  padding:15px;
+  font-weight: bold;
+  font-size:22px ;
+}
+.input-box{
+
+  margin-left: 17%;
+  margin-bottom: 0px;
+  display: inline-flex;
+  color: #D6D7DD; 
+}
+.input-box:hover{
+ color: #00acee; 
+}
+.email-box{
+padding-right: 15px;
+padding-top: 12px;
+
+}
+.input-box p{
+  padding: 5px;
+  margin: 0px;
+  font-weight: normal;
+  
+}
+.email-box input{
+  border: none;
+
+border-bottom: 1px #D6D7DD  solid;
+
+background: transparent;
+
+outline: none;
+
+color: white;
+
+font-size: 18px;
+  
+}
+.email-box input:focus{
+  border-bottom: 1px #00acee  solid;
+}
+.submit-button{
+  border-radius:19px;
+  height:40px;
+  width:75px;
+   border-color:#00acee;
+   background-color: black;
+  color:#00acee;
+  font-size:15px;
+  cursor: pointer;
+box-shadow: none;
+outline: none;
+margin-top: 15px;
+border-width: 1px;
+font-weight: bold;
+ 
+}
+.forgot-text:hover{
+  text-decoration: underline;
+}
+.img-logo{
+  position: absolute;
+  margin-left: 25%;
+    margin-top: 15vh;
+    width: 5%;
+    height: 60px;
+  background-image: url(https://i.imgur.com/VhDSNjO.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position:absolute;
+}
+h1{
+  margin-left: 25%;
+  margin-top:23vh ;
+  color:white;
+  font-weight: bold;
+}
+.join{
+font-size: 17px;
+font-weight: bold;
+margin-left: 25%;
+margin-top: 8vh;
+color: white;
+}
+.signup-btn
+ {
+  border-radius:25px;
+  height:40px;
+  width:400px;
+   border-color:#00acee;
+   background-color:#00acee;
+  color:white;
+  font-size:15px;
+  cursor: pointer;
+box-shadow: none;
+outline: none;
+margin-top: 1vh;
+margin-left: 25%;
+font-weight: bold;
+border-width: 1px;
+ }
+.Log-btn{
+  border-radius:25px;
+  height:40px;
+  width:400px;
+   border-color:#00acee;
+   background-color: black;
+  color:#00acee;
+  font-size:15px;
+  cursor:pointer;
+box-shadow: none;
+outline: none;
+margin-top: 2vh;
+margin-left: 25%;
+font-weight: bold;
+border-width: 1px;
+}
+ul{
+  display: inline-flex;
+  padding:5px;
+  color:#A9ABB6;
+  position: relative;
+  padding-bottom: 1px;
+  padding-top: 2px;
+  margin-left:9% ;
+ 
+  font-size: 13px;
+  list-style-type: none;
+  float: none;
+
+}
+ul a{
+  color:#A9ABB6;
+  padding:9px;
+  font-size: 14px;
+  text-decoration: none;
+}
+ul a:hover{
+  text-decoration: underline;
+}
+.right-div{
+  height:93vh;
+  width:50%;
+  float: right;
+  background-color:black;
+  position:relative;
+}
+
+</style>
+</head>
+<body class="bodyy">
+<div class="left-div">
+  <div>
+<p><i class="fa fa-search" aria-hidden="true"></i>&nbsp;
+  Follow your interests.</p>
+    <p><i class="fa fa-user-o" aria-hidden="true"></i> &nbsp; Hear what people are talking about.</p>
+    <p><i class="fa fa-commenting" aria-hidden="true"></i> &nbsp;Join the conversation.</p>
+  </div>
+</div>
+<div class="right-div">
+  <div class="input-box">
+    <div class="email-box">
+     <p>Phone, email, or username</p>
+     <input type="text" size="17px">
+    </div>
+    <div class="email-box">
+     <p>Password</p>
+     <input type="password">
+      <p class="forgot-text"><a href="" style="color:#00acee; text-decoration: none;">Forgot Password?</a></p>
+   </div>
+    <div>
+      <input type="submit" class="submit-button" name="submit" value="Log in">
+    </div>
+  </div>
+  <div class="img-logo">
+    
+  </div>
+  <div>
+    <h1>See what’s happening in<br>the world right now</h1>
+  </div>
+  <div class="join">
+  <p>Join Twitter today.</p>
+ </div>
+ <div>
+  <input type="submit" class="signup-btn"  value="Sign up">
+ </div>
+ <div>
+  <input type="submit" class="Log-btn"  value="Log in">
+</div>
+</div>
+<!--unodered list coding-->
+<div class="ul-list">
+  <ul>
+    <li><a href="">About</a></li>
+    <li><a href="">Help Center</a></li>
+    <li><a href="">Term</a></li>
+    <li><a href="">Privacy policy</a></li>
+    <li><a href="">Cookies</a></li>
+    <li><a href="">Ads info</a></li>
+    <li><a href="">Blog</a></li>
+    <li><a href="">Status</a></li>
+    <li><a href="">Jobs</a></li>
+    <li><a href="">Brand</a></li>
+    <li><a href="">Advertise</a></li>
+    <li><a href="">Marketing</a></li>
+    <li><a href="">Businesses</a></li>
+    <li><a href="">Developers</a></li>
+    <li><a href="">Directory</a></li>
+    <li><a href="">Setting</a></li>
+    <li>&copy; Twitter, Inc</li>
+  </ul>
+</div>
+
+</body>
+</html>
